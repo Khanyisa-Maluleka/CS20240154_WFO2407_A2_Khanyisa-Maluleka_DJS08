@@ -13,6 +13,8 @@
  * Review challenge: do all the CSS yourself based on the design
  * linked in the slides.
  */
+import React from "react"
+import { BrowserRouter } from "react-router-dom"
 
 function App() {
 
