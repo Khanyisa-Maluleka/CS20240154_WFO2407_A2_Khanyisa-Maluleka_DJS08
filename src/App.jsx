@@ -20,9 +20,15 @@ import About from "./About.jsx"
 
 
 function App() {
-
+ 
   return (
     <BrowserRouter>
+      <header>
+        <Link to="/">#VANLIFE</Link>
+        <nav>
+          <Link to = "/about">About</Link>
+        </nav>
+      </header>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
