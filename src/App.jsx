@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -18,9 +19,9 @@ import Layout from "./components/Layout"
 import HostLayout from "./components/HostLayout"
 import AuthRequired from "./components/AuthRequired"
 
-import "./server.js"
+import "./server"
 
-function App() {
+export default function App() {
 
   return (
     <BrowserRouter>
@@ -55,5 +56,3 @@ function App() {
     </BrowserRouter>
   )
 }
-
-export default App
