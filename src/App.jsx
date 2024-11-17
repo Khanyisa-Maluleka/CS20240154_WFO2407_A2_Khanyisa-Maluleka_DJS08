@@ -14,12 +14,16 @@
  * linked in the slides.
  */
 import React from "react"
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 function App() {
 
   return (
-    <h1>Start here</h1>
+    <BrowserRouter>
+      <Routes>
+
+      </Routes>
+    </BrowserRouter>
   )
 }
 
